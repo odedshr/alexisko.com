@@ -4,4 +4,4 @@ indexTemplate: src/index-template.html
 postTemplate: src/post-template.html
 overwrite: false
 versionFile: package.json
-execute: git add . && git commit -a -m "blog update `date`"
+execute: git add . && git commit -a -m "blog update `date`" && git push
