@@ -7,6 +7,127 @@ html {
 }
 
 body {
+	color: darkslategrey;
+	font-size: 1.6rem;
+	margin:0;
+	padding: 2vw;
+
+	&.post_page {
+		margin: 0 auto;
+		padding: 2vw 0;
+		width: 75vw;
+
+		.post_title {
+			font-size: 3.5rem;
+    	margin-bottom: 2rem;
+		}
+
+		.post_tags {
+			margin: 2rem 0;
+		}
+	}
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 2rem 0;
+}
+
+.site_title {
+	font-size: 4rem;
+
+	a {
+		text-decoration: none;
+	}
+}
+
+nav {
+	vertical-align: middle;
+
+	a {
+		line-height: 2rem;
+		vertical-align: middle;
+	}
+
+	.nav_current {
+		color: darkslategrey;
+		pointer-events: none;
+		text-decoration: none;
+	}
+}
+
+.nav_instagram {
+	background-image: url(/assets/instagram.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	height: 2rem;
+	width: 2rem;
+
+	span {
+		display: none;
+	}
+}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 2vw;
+	width: 75%;
+}
+
+.post_picture {
+	order: 0;
+}
+
+.post_image {
+	margin-bottom: 1rem;
+	object-fit: cover;
+	width: 100%;
+}
+
+.post_pubDate {
+	order: 1;
+	font-size: 1.4rem;
+}
+
+.post_title {
+	display: block;
+	font-size: 2rem;
+	margin: 0.5rem 0;
+	order: 2;
+}
+
+.post_tags {
+	list-style: none;
+	order: 3;
+
+	li {
+		background-color: whitesmoke;
+		border: 1px solid lightgrey;
+		border-radius: 0.25rem;
+		display: inline-block;
+		font-size: 1.4rem;
+		padding: 0.5rem;
+
+		&:not(:last-child) {
+			margin-right: 1rem;
+		}
+	}
+}
+
+.post_content {
+	margin-bottom: 2vw;
+}
+
+footer {
+	border-top: 1px solid lightgrey;
+	padding-top: 1rem;
+}
+
+/*
+body {
 	background-color: black;
 	color: white;
 	text-transform: lowercase;
@@ -505,3 +626,4 @@ a:visited {
 		z-index: 0;
 	}
 }
+*/

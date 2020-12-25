@@ -1,16 +1,16 @@
 {
-	"name": "alexisko.com",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "./node_modules/.bin/serve www",
-		"style": "./node_modules/.bin/sass --watch ./src/index.scss ./www/index.css "
-	},
-	"author": "Oded Sharon",
-	"license": "ISC",
-	"dependencies": {
-		"sass": "^1.26.5",
-		"serve": "^11.3.0"
-	}
+  "name": "alexisko.com",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/serve www",
+    "style": "./node_modules/.bin/sass --watch ./src/index.scss ./www/index.css "
+  },
+  "author": "Oded Sharon",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.30.0",
+    "serve": "^11.3.2"
+  }
 }
