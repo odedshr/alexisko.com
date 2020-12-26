@@ -1,0 +1,71 @@
+.posts {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.post {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto 12rem;
+}
+
+.post_details {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.post_picture {
+	border: none;
+	order: 0;
+	text-align: center;
+}
+
+.post_image {
+	margin-bottom: 2rem;
+	max-height: 50vw;
+	max-width: 50vw;
+	object-fit: cover;
+}
+
+.post_pubDate {
+	order: 1;
+	font-size: 1.4rem;
+}
+
+.post_title {
+	display: block;
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 3rem;
+	font-weight: 600;
+	margin: 3rem 0;
+	order: 2;
+}
+
+.post_tags {
+	list-style: none;
+	order: 3;
+
+	li {
+		background-color: whitesmoke;
+		border: 1px solid lightgrey;
+		border-radius: 0.25rem;
+		display: inline-block;
+		font-size: 1.4rem;
+		padding: 0.5rem;
+
+		&:not(:last-child) {
+			margin-right: 1rem;
+		}
+	}
+}
+
+.post_content {
+	margin-bottom: 2vw;
+}
+
+.post_text {
+	margin: 6rem 0 7rem;
+	line-height: 2rem;
+}

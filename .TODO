@@ -1,0 +1,4 @@
+- parse foldername: extract pubdate, tags
+- install https://www.npmjs.com/package/markdown-to-html
+- version
+- git commit // date +"%m-%d-%Y"
