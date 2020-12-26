@@ -1,0 +1,48 @@
+.about_intro,
+.about_contact {
+	box-sizing: border-box;
+	padding-left: 11rem;
+	width: 75vw;
+}
+
+.about_intro {
+	font-size: 1.6rem;
+	margin: 0 auto 5rem;
+	line-height: 3rem;
+
+	h2 {
+		font-size: 3rem;
+		font-weight: 600;
+		margin: 15rem 0 2rem;
+	}
+}
+
+.about_contact {
+	margin: 0 auto 10rem;
+
+	li {
+		line-height: 3rem;
+	}
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 10rem 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+  grid-template-areas:
+    "title . ."
+		"title . .";
+	margin: 1rem auto 5rem;
+	width: 75vw;
+
+}
+
+.gallery_title {
+	grid-area: title;
+	font-family: 'Cormorant Garamond', serif;
+}
+
+.gallery_image {
+	width: 100%;
+}
